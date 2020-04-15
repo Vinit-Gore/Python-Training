@@ -1,0 +1,33 @@
+Function Assignment (All Questions - Implementation Using - Modules & Package Concepts)
+
+1. Consider you have 3 list object each containing a list of integers. Print the addition of the data structure. Define a function taking only 2 list objects as input. No external library should be used.
+*Hint. All list objects are of the same dimension. The 3 list objects may be identical.
+For eg. 
+    Input => List_A = [[1,2,3], ...], List_B = [[1,2,3], ...], List_C = [[1,2,3], ...]
+    Output => [[3,6,9], ...]
+
+
+2. Consider you have a m list object each containing a list of integers. Print the addition of the data structure. Define a function taking any number of list objects as input. No external library should be used.
+*Hint. All list objects are of the same dimension. The list objects may be identical.
+For eg. 
+    Input => List_A = [[1,2,3], ...], List_B = [[1,2,3], ...], List_C = [[1,2,3], ...]
+    Output => [[3,6,9], ...]
+
+
+3. Define a function taking input as a list of 100 tuple of randomly generated integer range - 0 - 1000 & returning the max, min and average of the same.
+For eg. 
+    Input => List_A = [(1),(298), (993), ...]
+    Output => (<max>, <min>, <average>)
+
+
+4. Create a function returning a dict object with 2 keys "even" & "odd" with values as list of even & odd numbers respectively.
+Take input as a list of 100 integers range from 999 to 9999. No external library should be used.
+DO NOT USE the division or modulus method.
+For eg. 
+    Input => List_A = [1,298, 993, ...]
+    Output => {"even" : [298, ...], "odd" : [1, 993, ...]}
+    
+5. Removal of duplicate & print the occurance. Define 2 function & process the request.
+    First function would only print the unique values & return an object.
+    The second function would use the returned object from the first function & print the sum of the repeating values.
+    Input => List_A = [1,298, 993, ...] (100 randomly generated integer values).

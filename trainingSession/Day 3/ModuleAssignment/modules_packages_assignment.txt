@@ -1,0 +1,61 @@
+
+=================================================================================================
+
+
+1. Create package "Strings" that will contain all basic operations of Strings
+Ex: Concat, Substring, Trim, Length, Find palindrome strings, Uppercase, lowercase, captilization
+Minimum 5 functions required in a package
+
+Output: 
+HelloHow are you
+False
+True
+   How
+How
+Length of s1 :  11
+True
+HOW ARE YOU
+how are you
+How are you
+
+=================================================================================================
+
+
+2. Create a package consisting different functions related to cryptography.  
+Ex: Encryption, Decryption, AES256, Salting, MD5 Generation
+Minimum 5 relatable functions required in a package
+
+
+=================================================================================================
+
+
+3. Create a package named 'Cars'. The 'Cars' package should contain sub packages of 
+car Companies ex: 'Audi', 'Mercedes', 'BMW'. Each sub package must contain modules of each car model,
+ex: 'A4', 'Q7', '350', '520D', '4MaticCLS', 'X1' in their respective Companies. Each Module must contain basic
+functions related to model ex: Price, Specifications, Available colors, Comparison between 2 models etc.
+
+Note: You may bring in your innovative ideas in this package
+
+- Cars (Package)
+
+-- Audi (Sub Package)
+--- A4  (Module)
+--- Q7
+--- TT
+
+-- Mercedes
+--- GClass
+--- CClass
+--- Benz
+
+-- BMW
+--- X1
+--- X2
+--- M3
+
+-- Jaguar
+--- XF
+--- XE
+--- XJ
+
+

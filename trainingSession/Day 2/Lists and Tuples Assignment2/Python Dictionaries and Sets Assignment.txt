@@ -1,0 +1,78 @@
+Python Dictionaries and Sets Assignment.
+
+1. Given a dict object in ./assignment_data/Question_1.json. Re arrange the data structure to a list data structure.
+For eg.
+(Input) :- 
+{
+  "web-app": {
+    "servlet": [
+      {
+        "servlet-name": "cofaxCDS",
+        "servlet-class": "org.cofax.cds.CDSServlet",
+        "init-param": {
+          "configGlossary:installationAt": "Philadelphia, PA",
+          "configGlossary:adminEmail": "ksm@pobox.com",
+          ...
+        }
+       }...
+      ]
+   }
+}
+
+Output :- 
+{
+  "init-param": [
+    {
+      "configGlossary:installationAt": "Philadelphia, PA",
+      "fromType": "servlet"
+    },
+    {
+      "configGlossary:adminEmail": "ksm@pobox.com",
+      "fromType": "servlet"
+    }
+    ....
+  ]
+}
+
+
+2. List of 10 employee object.
+    Single employee object may contain keys as follows 'name', 'salary', 'age', 'status'.
+    
+    For Example
+    [
+       {'name':'Joel', 'salary': '25', 'experience': 2, 'status': 'Okay'}
+       {'name':'Imtiyaz', 'experience': 2, 'status': 'Okay'}
+        .....
+    ]
+
+Calculate Salary 
+    => 10 * experience 
+    => Add 5 to salary if status is Okay else add 0 
+    => Change status to 'HR Approval'.
+
+    Output:
+[{'name': 'Joel', 'salary': 25, 'experience': 2, 'status': 'HR Approval'}, {'name': 'Abhay', 'salary': 35, 'experience': 3, 'status': 'HR Approval'}, {'name': 'Bunty', 'salary': 45, 'experience': 4, 'status': 'HR Approval'}, {'name': 'Chakor', 'experience': 1, 'status': 'HR Approval', 'salary': 10}, {'name': 'Dagdoo', 'salary': 15, 'experience': 1, 'status': 'HR Approval'}, {'name': 'Ektar', 'experience': 0, 'status': 'HR Approval', 'salary': 5}, {'name': 'Fandry', 'status': 'Okay'}, {'name': 'Gappu', 'salary': 25, 'experience': 2, 'status': 'HR Approval'}, {'name': 'Hari', 'salary': 20, 'experience': 2, 'status': 'HR Approval'}, {'name': 'Imtiyaz', 'experience': 2, 'status': 'HR Approval', 'salary': 25}]
+
+    
+Calculate Avg. Salary of employees if 'status': 'Okay'
+Avg Salary : 7.0
+
+3. Google search 3 articles
+    i. Changing climate. (A)
+    ii. GST. (B)
+    iii. AI a boon or a curse. (C)
+    
+    Save the text of the 3 article in a variable (string) respectively.
+    Convert the string into set object. (Set should contain atleast 50 unique words.)
+    
+    Find
+        i. Only common words from A and C
+        ii. True or false : len( A U C ) < len( B )
+        iii. All the words of B but not in A as well as not in C
+Output:
+i. {'negative', 'to', 'is', 'a', 'its', 'This', 'more', 'in', 'change', 'be', 'that', 'If', 'for', 'positive', 'place', 'and', 
+'the', 'of'}
+ii. False
+iii. {'previous', 'taxes.', 'tax:', 'various', '(GST)', 'tax,', 'parties', 'supply', 'destination', 'process,', 'refunded', 'like', 'final', 'at', 'tax', 'subsumed', 'collected', 'production', 'origin', 'It', 'except', 'goods', 'every', 'point', 'based', 'multi-staged', 'imposed', 'consumption', 'Services', '(or', 'Tax', 'services.', 'comprehensive', 'multistage,', 'India', 
+'step', 'stages', 'taxes', 'Goods', 'indirect', 'tax)', 'meant', 'consumer', 'few;', 'because'}
+    

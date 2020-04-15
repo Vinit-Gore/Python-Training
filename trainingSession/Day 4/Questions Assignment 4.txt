@@ -1,0 +1,44 @@
+Python Assignment 4 :- 
+
+1. Create a logger using file handling operations. The logger should have 2 functions.
+    - LogInfo()
+    - LogError()
+The logger should be a package that can be imported in any python file and user can use logger
+functions to put program logs in file.
+Output:
+INFO: Demo log
+INFO: Demo log
+ERROR: Demo log
+INFO: Demo log
+ERROR: Demo log
+
+2. Create a CSV file that has header fields (employee_name, employee_code, employee_team, appraiser)
+and insert some data to corresponding fields
+No,Name,Country
+
+1,Alex,India
+
+2,Ben,USA
+
+3,Shri Ram,India
+
+4,Smith,USA
+
+5,Yuva Raj,India
+
+3. Write a program for basic JSON file handling operations like Writing, Reading, Updating
+Output:
+{
+    "1": 2,
+    "6": 8
+}
+
+4. From CSV created in question 2, add some data to csv with blank or null fields. The task is 
+to read the csv file and remove null records and iterate on rows which do not have any blank data.
+Output:
+[{'No': '1', 'Name': 'Alex', 'Country': 'India'}, {'No': '2', 'Name': 'Ben', 'Country': 'USA'}, {'No': '3', 'Name': 'Shri Ram', 'Country': 'India'}, {'No': '4', 'Name': 'Smith', 'Country': 'USA'}, {'No': '5', 'Name': 'Yuva Raj', 'Country': 'India'}, {'No': 'No', 'Name': 'Name', 'Country': 'Country'}, {'No': 'No', 'Name': 'Name', 'Country': 'Country'}]
+
+5. Write all possible error handlers for above 4 questions.
+
+
+Deadline - 24th Oct, 2019.

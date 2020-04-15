@@ -1,0 +1,42 @@
+Assignment 2
+
+1. List of tuples
+	i. Change element of a single tuple.
+	ii. Change the entire tuple.
+Output:
+i. Traceback (most recent call last):
+  File "d:/Workplace/src/Python-training/trainingSession/Lists and Tuples Assignment2/Assignment2_L&T/problem1.py", line 2, 
+in <module>
+    tuple1[1] = 20.0
+TypeError: 'tuple' object does not support item assignment
+
+ii. [(10, 20, 30), (40, 30, 20), (30, 40, 50)]
+
+2. Tuple of Lists
+	i. Change element of a single list.
+	ii. Change the entire list.
+Output: 
+i. [1, 3, 3, 4]
+ii. [1, 2, 3, 4] -> id :  56080304
+[2, 3, 4, 5] -> id :  56079064
+
+3. What is namedtuple in python?
+Point(x=1.0, y=5.0) Point(x=3.0, y=4.0)
+
+4. Find smallest second index value from a list of tuples:
+x = [(3, 1), (4, 2), (9, 0), (6, -2),  (-9, -1)]
+Output: -2
+
+5. Find the list in a list of lists whose sum of elements is the highest
+Sample lists: [1,2,3], [4,5,6], [10,11,12], [7,8,9]
+Output: [10, 11, 12]
+
+6. (Ungraded). Compare Speed of List & Tuple Looping!
+
+7. (Ungraded). Tuples show structure whereas lists show order.
+
+8.(Ungraded). 
+Extend a list without append.
+Sample data:    [10, 20, 30]
+                [40, 50, 60]
+Expected output : [40, 50, 60, 10, 20, 30]

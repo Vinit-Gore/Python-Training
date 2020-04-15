@@ -1,0 +1,63 @@
+Regular Expressions Assignment
+
+1. Program to return the permutations of your name. Your first & last letters should not be neighbours.
+
+For Eg.
+Input => "Joel"
+
+joel - Accepted
+jole - Accepted
+jeol - Accepted
+jelo - Accepted
+jleo - Rejected
+jloe - Rejected
+ojel - Accepted
+ojle - Rejected
+oejl - Rejected
+oelj - Rejected
+olej - Accepted
+olje - Rejected
+eojl - Rejected
+eolj - Rejected
+ejol - Accepted
+ejlo - Rejected
+eljo - Rejected
+eloj - Accepted
+loej - Accepted
+loje - Accepted
+leoj - Accepted
+lejo - Accepted
+ljeo - Rejected
+ljoe - Rejected
+
+Output => ['joel', 'jole', ..] (Only accepted strings)
+
+
+2. No of occurance of vowels ['a', 'e', 'i', 'o', 'u'] in a paragraph (containing 25 words atleast).
+    Output => {'a': 39, 'i': 54, 'e': 88, 'o': 48, 'u': 18}
+    
+Lambda Functions Assignment
+
+3. Menu Driven Calculator.
+    Add / Sub / Multilication / Division / Pow / int or float (return type)
+    Take 2 input values from user.
+   
+4. Menu Driven
+    String Operation.
+   
+5. Multiplication table of an input number in a list.
+    Input => 2
+    Output=> [2, 4, 6, ..... 22, 24]
+
+6. Return substring from a string.
+    1. Input => Session_Number 1:Session#01-Introduction
+       Output => 01
+    2. Input => Session 2:Session#02-Typing Practice
+       Output => 02
+    3. Input => Session  7:Session#07-Story Telling
+       Output => 07
+    4. Input => Final Exam:Session#10-Typing Practice
+       Output => 10
+   
+7. Calculate area of circle. Take value of 'pi' from another lambda function.
+    Take radius value from user.
