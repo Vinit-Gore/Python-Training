@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "Machine Learning/bin/python3.6",
+    "python.formatting.provider": "autopep8",
+    "git.ignoreLimitWarning": true
+}
